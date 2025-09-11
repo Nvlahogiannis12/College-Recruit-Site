@@ -6,6 +6,8 @@ body{
 .banner {
     width: 100%;
     height: auto; /* default on smaller screens */
+    box-shadow:0 0 10px darkslategray, 0 0 15px rgb(0, 40, 170);
+    margin-top:15px;
 }
 
 @media (min-width: 992px) {
@@ -88,4 +90,8 @@ body{
     left: 0; /* Visible when 'open' class is added */
   }
 
+}
+
+nav-text{
+  color:rgb(240, 240, 240);
 }
