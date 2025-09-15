@@ -20,6 +20,8 @@ body{
   background-size: 200px 200px;
   color:white;
   margin-top: 100px;
+  justify-content: center;
+  text-align: center;
 }
 /*AI*/
 .banner {
@@ -33,7 +35,7 @@ body{
     .banner {
         height: 400px; /* crop top/bottom on desktops */
         object-fit: cover;
-        object-position: center;
+        object-position: center;   
     }
 }
 .menu-icon {
@@ -116,8 +118,8 @@ nav-text{
 }
 
 .isAMap{
-  width:600px;
-   height:450px;
+  width:100%;
+  height:450px;
   border:0;
   margin-top:25px;
 }
