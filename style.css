@@ -1,13 +1,32 @@
 body{
   height:100%;
   width:100%;
+  --light: rgb(41, 41, 41);
+  --dark: rgb(36, 36, 36);
+  background: linear-gradient(
+    33.6deg,
+    var(--light) 0% 9%,
+    var(--dark) 11% 19%,
+    var(--light) 21% 29%,
+    var(--dark) 31% 39%,
+    var(--light) 41% 49%,
+    var(--dark) 51% 59%,
+    var(--light) 61% 69%,
+    var(--dark) 71% 79%,
+    var(--light) 81% 89%,
+    var(--dark) 91% 100%
+  );
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  color:white;
+  margin-top: 100px;
 }
 /*AI*/
 .banner {
     width: 100%;
     height: auto; /* default on smaller screens */
     box-shadow:0 0 10px darkslategray, 0 0 15px rgb(0, 40, 170);
-    margin-top:15px;
+    margin-top:25px;
 }
 
 @media (min-width: 992px) {
@@ -21,7 +40,7 @@ body{
   font-size: 30px;
   padding: 10px;
   cursor: pointer;
-  background-color: #333;
+  background-color:rgb(0, 17, 75);
   color: white;
   border-radius: 5px;
   position: fixed;
@@ -37,7 +56,7 @@ body{
   top: 0;
   width: 200px;
   height: 100%;
-  background-color: #333;
+  background-color: rgb(0, 17, 75);
   transition: left 0.5s ease-in-out; /* Smooth transition */
   z-index: 500;
 }
@@ -64,7 +83,7 @@ body{
 }
 
 .sidebar ul li a:hover {
-  background-color: #444;
+  background-color: rgb(0, 23, 100);
 }
 
 /* Title styling */
