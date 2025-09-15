@@ -4,7 +4,7 @@ body{
   --light: rgb(41, 41, 41);
   --dark: rgb(36, 36, 36);
   background: linear-gradient(
-    33.6deg,
+    -33.6deg,
     var(--light) 0% 9%,
     var(--dark) 11% 19%,
     var(--light) 21% 29%,
@@ -113,4 +113,11 @@ body{
 
 nav-text{
   color:rgb(240, 240, 240);
+}
+
+.isAMap{
+  width:600px;
+   height:450px;
+  border:0;
+  margin-top:25px;
 }
