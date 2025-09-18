@@ -134,6 +134,9 @@ nav-text{
 .infoHistory{
   font-size:20px;
 }
-.blue{
-  background-color: blue;
+.backBlue{
+  background-color: rgb(1, 1, 230);
+  width:100%;
+  padding:0 !important;
+  margin:0 !important;
 }
