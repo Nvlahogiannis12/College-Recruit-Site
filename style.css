@@ -142,10 +142,18 @@ nav-text{
 }
 
 .infoTabOpen{
-  background-image: url(imgs/campus_photo.jpg)
+  background-image: url(imgs/campus_photo.jpg);
+    background-position:center;
+    background-size:cover;
 }
 
 .tabBTN{
-width:1%;
+width:500px;
 height:auto;
+background-color:rgb(0, 0, 185);
+color:whitesmoke;
+}
+
+.textBG{
+  background-color:rgba(102, 102, 102, 0.9);
 }
